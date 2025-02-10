@@ -1,0 +1,51 @@
+[data-testid="stSidebarUserContent"]{
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+[data-testid="stAppViewBlockContainer"]{
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+div.stSlider [data-testid="stTickBar"] {
+    display: none;
+}
+
+[data-testid="stBottomBlockContainer"]{
+ padding-top: 0.2rem;
+ padding-bottom: 0.2rem;
+ padding-left: 0.5rem;
+ padding-right: 0.5rem;
+}
+
+button[title="View fullscreen"] {
+    display: none;
+}
+
+body {
+    background-color: rgb(172, 172, 37);
+}
+
+div[role="listbox"] ul {
+    background-color: rgb(165, 30, 30);
+}
+
+/* Hover effect */
+[data-testid="stBaseButton-segmented_controlActive"]{
+    background-color: #ffbb0029;
+}
+
+[data-testid="stBaseButton-tertiary"] div[data-testid="stMarkdownContainer"] p {
+    text-align: left;
+    justify-content: flex-start;
+}
+
+/* Ensure button content also aligns properly */
+[data-testid="stBaseButton-tertiary"] {
+    display: flex;
+    justify-content: flex-start;
+}
