@@ -2,4 +2,4 @@ numpy
 matplotlib
 streamlit>=1.41.0
 streamlit-extras==0.4.3
-streamlit_theme
+st-theme
