@@ -170,7 +170,7 @@ def segmented_control_with_checkbox(labels,
             options=options,
             disabled=open,
             label_visibility='collapsed',
-            format_func=lambda x: "‎ "*6,
+            format_func=lambda x: " ",
             key=key_preffix + "segmented_control_" + labels[0],
             default=options[0]
             )
@@ -193,7 +193,7 @@ def segmented_control_with_checkbox(labels,
                     default=value_base,
                     label_visibility='collapsed',
                     key=key_preffix + "segmented_control_"+l,
-                    format_func=lambda x: "‎ "*6
+                    format_func=lambda x: " "
                     )
                 values.append(val)
 
